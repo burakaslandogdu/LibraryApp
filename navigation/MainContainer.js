@@ -5,10 +5,10 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 //Screens
 
-import HomeScreen from './Screens/HomeScreen';
-import MapScreen from './Screens/MapScreen';
-import ChatScreen from './Screens/ChatScreen';
-import ProfileScreen from './Screens/ProfileScreen';
+import HomeScreen from './Screens/HomeScreen/HomeScreen';
+import MapScreen from './Screens/MapScreen/MapScreen';
+import ChatScreen from './Screens/ChatScreen/ChatScreen';
+import ProfileScreen from './Screens/ProfileScrren/ProfileScreen';
 
 //Screen Names
 

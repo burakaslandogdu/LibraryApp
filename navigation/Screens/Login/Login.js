@@ -55,6 +55,7 @@ const Login = ({navigation}) => {
         formValues.usermail,
         formValues.password,
       );
+      navigation.navigate('GoHome');
     } catch (error) {
       console.log(error);
       showMessage({

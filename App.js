@@ -16,7 +16,7 @@ import MainContainer from './navigation/MainContainer';
 const homeName = 'Home';
 const mapName = 'Map';
 const chatName = 'Chat';
-const profileName = 'Profile';
+const profileName = 'Person';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -26,6 +26,10 @@ function GoHome() {
     <Tab.Navigator
       initialRouteName={homeName}
       screenOptions={({route}) => ({
+        activeTintColor: 'tomato',
+        inactiveTintColor: 'grey',
+        labelStyle: {paddingBottom: 10, fontSize: 10},
+        style: {padding: 10, height: 70},
         style: {padding: 10, height: 70},
         tabBarIcon: ({focused, color, size}) => {
           let iconName;
@@ -38,18 +42,12 @@ function GoHome() {
           } else if (rn === chatName) {
             iconName = focused ? 'chatbox' : 'md-chatbox';
           } else {
-            iconName = focused ? 'profile' : 'md-settings';
+            iconName = focused ? 'person' : 'md-person';
           }
 
           return <Icon name={iconName} size={size} color={color} />;
         },
-      })}
-      tabBarOptions={{
-        activeTintColor: 'tomato',
-        inactiveTintColor: 'grey',
-        labelStyle: {paddingBottom: 10, fontSize: 10},
-        style: {padding: 10, height: 70},
-      }}>
+      })}>
       <Tab.Screen
         options={{headerShown: false}}
         name={homeName}

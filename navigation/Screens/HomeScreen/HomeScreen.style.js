@@ -1,4 +1,4 @@
 import {StyleSheet, Dimensions} from 'react-native';
-import styles from '../components/FloatingButton/FloatingButton.style';
+import FloatingButtonStyle from '../components/FloatingButton/FloatingButton.style';
 
-export default styles.container;
+export default FloatingButtonStyle;

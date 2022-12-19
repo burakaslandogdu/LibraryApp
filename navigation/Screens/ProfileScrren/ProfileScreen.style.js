@@ -18,6 +18,6 @@ export default StyleSheet.create({
     backgroundColor: 'pink',
   },
   logoutIcon: {
-    alignItems: 'center',
+    alignItems: 'flex-end',
   },
 });

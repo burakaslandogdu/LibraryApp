@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "16376992231",
-    "project_id": "libraryapp-d75d9",
-    "storage_bucket": "libraryapp-d75d9.appspot.com"
+    "project_number": "93236885486",
+    "project_id": "libraryapp-7cfdb",
+    "storage_bucket": "libraryapp-7cfdb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:16376992231:android:1cac3a332570e79e3ded42",
+        "mobilesdk_app_id": "1:93236885486:android:412dfd8db51e615a64c0ff",
         "android_client_info": {
           "package_name": "com.libraryapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "16376992231-gl2fl1v68tdbo0cd5cto2nugetbevu0t.apps.googleusercontent.com",
+          "client_id": "93236885486-42eth21gtd3vv7v9t88qihhnvuamjqim.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBOrGvNjrAdoKdXt45yeyzsR0FCovUUh4Q"
+          "current_key": "AIzaSyCeoJo4JwL3wkSI-d7KDbKnstW--aLVlDg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "16376992231-gl2fl1v68tdbo0cd5cto2nugetbevu0t.apps.googleusercontent.com",
+              "client_id": "93236885486-42eth21gtd3vv7v9t88qihhnvuamjqim.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

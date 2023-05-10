@@ -97,7 +97,10 @@ const ChatScreen = () => {
           </Dialog.Actions>
         </Dialog>
       </Portal>
-      <FloatingButton icon="people" onPress={() => setIsDialogVisible(true)} />
+      <FloatingButton
+        icon="ios-pencil-sharp"
+        onPress={() => setIsDialogVisible(true)}
+      />
     </View>
   );
 };
